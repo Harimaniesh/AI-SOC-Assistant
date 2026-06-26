@@ -1,0 +1,200 @@
+[
+  {
+    "timestamp": "2026-06-27T00:01:00Z",
+    "source_ip": "192.168.1.50",
+    "destination_ip": "192.168.1.10",
+    "event_type": "login_success",
+    "details": "User logged in successfully",
+    "user": "admin",
+    "port": null
+  },
+  {
+    "timestamp": "2026-06-27T00:02:00Z",
+    "source_ip": "198.51.100.12",
+    "destination_ip": "192.168.1.10",
+    "event_type": "failed_login",
+    "details": "Failed password for user root",
+    "user": "root",
+    "port": null
+  },
+  {
+    "timestamp": "2026-06-27T00:02:05Z",
+    "source_ip": "198.51.100.12",
+    "destination_ip": "192.168.1.10",
+    "event_type": "failed_login",
+    "details": "Failed password for user root",
+    "user": "root",
+    "port": null
+  },
+  {
+    "timestamp": "2026-06-27T00:02:10Z",
+    "source_ip": "198.51.100.12",
+    "destination_ip": "192.168.1.10",
+    "event_type": "failed_login",
+    "details": "Failed password for user admin",
+    "user": "admin",
+    "port": null
+  },
+  {
+    "timestamp": "2026-06-27T00:02:15Z",
+    "source_ip": "198.51.100.12",
+    "destination_ip": "192.168.1.10",
+    "event_type": "failed_login",
+    "details": "Failed password for user admin",
+    "user": "admin",
+    "port": null
+  },
+  {
+    "timestamp": "2026-06-27T00:02:20Z",
+    "source_ip": "198.51.100.12",
+    "destination_ip": "192.168.1.10",
+    "event_type": "failed_login",
+    "details": "Failed password for user test",
+    "user": "test",
+    "port": null
+  },
+  {
+    "timestamp": "2026-06-27T00:02:25Z",
+    "source_ip": "198.51.100.12",
+    "destination_ip": "192.168.1.10",
+    "event_type": "failed_login",
+    "details": "Failed password for user mysql",
+    "user": "mysql",
+    "port": null
+  },
+  {
+    "timestamp": "2026-06-27T00:02:30Z",
+    "source_ip": "198.51.100.12",
+    "destination_ip": "192.168.1.10",
+    "event_type": "failed_login",
+    "details": "Failed password for user support",
+    "user": "support",
+    "port": null
+  },
+  {
+    "timestamp": "2026-06-27T00:02:35Z",
+    "source_ip": "198.51.100.12",
+    "destination_ip": "192.168.1.10",
+    "event_type": "failed_login",
+    "details": "Failed password for user oracle",
+    "user": "oracle",
+    "port": null
+  },
+  {
+    "timestamp": "2026-06-27T00:02:40Z",
+    "source_ip": "198.51.100.12",
+    "destination_ip": "192.168.1.10",
+    "event_type": "failed_login",
+    "details": "Failed password for user ftp",
+    "user": "ftp",
+    "port": null
+  },
+  {
+    "timestamp": "2026-06-27T00:02:45Z",
+    "source_ip": "198.51.100.12",
+    "destination_ip": "192.168.1.10",
+    "event_type": "failed_login",
+    "details": "Failed password for user backup",
+    "user": "backup",
+    "port": null
+  },
+  {
+    "timestamp": "2026-06-27T00:02:50Z",
+    "source_ip": "198.51.100.12",
+    "destination_ip": "192.168.1.10",
+    "event_type": "failed_login",
+    "details": "Failed password for user user1",
+    "user": "user1",
+    "port": null
+  },
+  {
+    "timestamp": "2026-06-27T00:02:55Z",
+    "source_ip": "198.51.100.12",
+    "destination_ip": "192.168.1.10",
+    "event_type": "failed_login",
+    "details": "Failed password for user guest",
+    "user": "guest",
+    "port": null
+  },
+  {
+    "timestamp": "2026-06-27T00:04:10Z",
+    "source_ip": "203.0.113.88",
+    "destination_ip": "192.168.1.15",
+    "event_type": "connection_attempt",
+    "details": "Connection dropped from host",
+    "user": null,
+    "port": 21
+  },
+  {
+    "timestamp": "2026-06-27T00:04:12Z",
+    "source_ip": "203.0.113.88",
+    "destination_ip": "192.168.1.15",
+    "event_type": "connection_attempt",
+    "details": "Connection dropped from host",
+    "user": null,
+    "port": 22
+  },
+  {
+    "timestamp": "2026-06-27T00:04:14Z",
+    "source_ip": "203.0.113.88",
+    "destination_ip": "192.168.1.15",
+    "event_type": "connection_attempt",
+    "details": "Connection dropped from host",
+    "user": null,
+    "port": 80
+  },
+  {
+    "timestamp": "2026-06-27T00:04:16Z",
+    "source_ip": "203.0.113.88",
+    "destination_ip": "192.168.1.15",
+    "event_type": "connection_attempt",
+    "details": "Connection dropped from host",
+    "user": null,
+    "port": 443
+  },
+  {
+    "timestamp": "2026-06-27T00:04:18Z",
+    "source_ip": "203.0.113.88",
+    "destination_ip": "192.168.1.15",
+    "event_type": "connection_attempt",
+    "details": "Connection dropped from host",
+    "user": null,
+    "port": 3389
+  },
+  {
+    "timestamp": "2026-06-27T00:04:20Z",
+    "source_ip": "203.0.113.88",
+    "destination_ip": "192.168.1.15",
+    "event_type": "connection_attempt",
+    "details": "Connection dropped from host",
+    "user": null,
+    "port": 8080
+  },
+  {
+    "timestamp": "2026-06-27T00:06:00Z",
+    "source_ip": "192.168.1.62",
+    "destination_ip": "192.168.1.10",
+    "event_type": "process_start",
+    "details": "Process started: explorer.exe",
+    "user": "user_bob",
+    "port": null
+  },
+  {
+    "timestamp": "2026-06-27T00:06:15Z",
+    "source_ip": "192.168.1.62",
+    "destination_ip": "192.168.1.10",
+    "event_type": "process_start",
+    "details": "Execution of suspicious file: mimikatz.exe",
+    "user": "user_bob",
+    "port": null
+  },
+  {
+    "timestamp": "2026-06-27T00:08:00Z",
+    "source_ip": "192.168.1.75",
+    "destination_ip": "192.168.1.12",
+    "event_type": "privilege_escalation",
+    "details": "User attempted privilege escalation via sudo makeadmin",
+    "user": "user_alice",
+    "port": null
+  }
+]

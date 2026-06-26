@@ -1,0 +1,23 @@
+timestamp,source_ip,destination_ip,event_type,details,user,port
+2026-06-27T00:01:00Z,192.168.1.50,192.168.1.10,login_success,User logged in successfully,admin,
+2026-06-27T00:02:00Z,198.51.100.12,192.168.1.10,failed_login,Failed password for user root,root,
+2026-06-27T00:02:05Z,198.51.100.12,192.168.1.10,failed_login,Failed password for user root,root,
+2026-06-27T00:02:10Z,198.51.100.12,192.168.1.10,failed_login,Failed password for user admin,admin,
+2026-06-27T00:02:15Z,198.51.100.12,192.168.1.10,failed_login,Failed password for user admin,admin,
+2026-06-27T00:02:20Z,198.51.100.12,192.168.1.10,failed_login,Failed password for user test,test,
+2026-06-27T00:02:25Z,198.51.100.12,192.168.1.10,failed_login,Failed password for user mysql,mysql,
+2026-06-27T00:02:30Z,198.51.100.12,192.168.1.10,failed_login,Failed password for user support,support,
+2026-06-27T00:02:35Z,198.51.100.12,192.168.1.10,failed_login,Failed password for user oracle,oracle,
+2026-06-27T00:02:40Z,198.51.100.12,192.168.1.10,failed_login,Failed password for user ftp,ftp,
+2026-06-27T00:02:45Z,198.51.100.12,192.168.1.10,failed_login,Failed password for user backup,backup,
+2026-06-27T00:02:50Z,198.51.100.12,192.168.1.10,failed_login,Failed password for user user1,user1,
+2026-06-27T00:02:55Z,198.51.100.12,192.168.1.10,failed_login,Failed password for user guest,guest,
+2026-06-27T00:04:10Z,203.0.113.88,192.168.1.15,connection_attempt,Connection dropped from host,203.0.113.88,21
+2026-06-27T00:04:12Z,203.0.113.88,192.168.1.15,connection_attempt,Connection dropped from host,203.0.113.88,22
+2026-06-27T00:04:14Z,203.0.113.88,192.168.1.15,connection_attempt,Connection dropped from host,203.0.113.88,80
+2026-06-27T00:04:16Z,203.0.113.88,192.168.1.15,connection_attempt,Connection dropped from host,203.0.113.88,443
+2026-06-27T00:04:18Z,203.0.113.88,192.168.1.15,connection_attempt,Connection dropped from host,203.0.113.88,3389
+2026-06-27T00:04:20Z,203.0.113.88,192.168.1.15,connection_attempt,Connection dropped from host,203.0.113.88,8080
+2026-06-27T00:06:00Z,192.168.1.62,192.168.1.10,process_start,Process started: explorer.exe,user_bob,
+2026-06-27T00:06:15Z,192.168.1.62,192.168.1.10,process_start,Execution of suspicious file: mimikatz.exe,user_bob,
+2026-06-27T00:08:00Z,192.168.1.75,192.168.1.12,privilege_escalation,User attempted privilege escalation via sudo makeadmin,user_alice,

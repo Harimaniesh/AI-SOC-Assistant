@@ -1,0 +1,22 @@
+2026-06-27T00:01:00Z login_success: User logged in successfully for user admin from IP 192.168.1.50
+Jun 27 00:02:00 host sshd[1234]: Failed password for root from 198.51.100.12 port 22 ssh2
+Jun 27 00:02:05 host sshd[1234]: Failed password for root from 198.51.100.12 port 22 ssh2
+Jun 27 00:02:10 host sshd[1234]: Failed password for invalid user admin from 198.51.100.12 port 22 ssh2
+Jun 27 00:02:15 host sshd[1234]: Failed password for invalid user admin from 198.51.100.12 port 22 ssh2
+Jun 27 00:02:20 host sshd[1234]: Failed password for invalid user test from 198.51.100.12 port 22 ssh2
+Jun 27 00:02:25 host sshd[1234]: Failed password for invalid user mysql from 198.51.100.12 port 22 ssh2
+Jun 27 00:02:30 host sshd[1234]: Failed password for invalid user support from 198.51.100.12 port 22 ssh2
+Jun 27 00:02:35 host sshd[1234]: Failed password for invalid user oracle from 198.51.100.12 port 22 ssh2
+Jun 27 00:02:40 host sshd[1234]: Failed password for invalid user ftp from 198.51.100.12 port 22 ssh2
+Jun 27 00:02:45 host sshd[1234]: Failed password for invalid user backup from 198.51.100.12 port 22 ssh2
+Jun 27 00:02:50 host sshd[1234]: Failed password for invalid user user1 from 198.51.100.12 port 22 ssh2
+Jun 27 00:02:55 host sshd[1234]: Failed password for invalid user guest from 198.51.100.12 port 22 ssh2
+Jun 27 00:04:10 host firewall: connection dropped from 203.0.113.88 to 192.168.1.15:21
+Jun 27 00:04:12 host firewall: connection attempt from 203.0.113.88 to 192.168.1.15:22
+Jun 27 00:04:14 host firewall: connection attempt from 203.0.113.88 to 192.168.1.15:80
+Jun 27 00:04:16 host firewall: connection attempt from 203.0.113.88 to 192.168.1.15:443
+Jun 27 00:04:18 host firewall: connection attempt from 203.0.113.88 to 192.168.1.15:3389
+Jun 27 00:04:20 host firewall: connection attempt from 203.0.113.88 to 192.168.1.15:8080
+2026-06-27T00:06:00Z host system: Process started: explorer.exe by user_bob
+2026-06-27T00:06:15Z host system: Execution of suspicious file: mimikatz.exe by user_bob on IP 192.168.1.62
+2026-06-27T00:08:00Z host security: User attempted privilege escalation via sudo makeadmin on IP 192.168.1.75
